@@ -17,7 +17,7 @@ int getMaxIndex(int arr[], int size)
 void print_vector(int a[])
 {
     for (int i = 0; i < SIZE; i++)
-        cout << a[i] << ", ";
+        cout << a[i] << " ";
 }
 
 int main()
@@ -26,7 +26,6 @@ int main()
     int max = getMaxIndex(a, SIZE - 1);
     cout << "Index of max element of vector { ";
     print_vector(a);
-    cout << " }"
-         << " is " << max + 1 << endl;
+    cout << " } is " << max + 1 << endl;
     return 0;
 }
